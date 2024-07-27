@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIKRAM NAYAK PORTFOLIO</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vikram Nayak</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Vikram Nayak</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img style="border-radius: 50%;" src="./m3.png" alt="Vikram's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Vikram Nayak</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <a style="text-decoration: none;" class="btn btn-color-2" href="./Vikram CV.pdf" download="MyResume.pdf">Download CV</a>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/vikram-nayak-1804ba302?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bg84OVzoNTEaKNcLpZ8xgxw%3D%3D'"
+          />
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/github.png?raw=true"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Vikram-ui2004'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/experience.png?raw=true"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>I have no experience <br /></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/education.png?raw=true"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Computer application<br />2023-2026</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Aspiring Web Developer with a strong foundation in HTML, CSS, JavaScript, and modern
+              frameworks like React. Proficient in creating responsive and user-friendly websites.
+              Completed several personal and academic projects demonstrating the ability to design,
+              develop, and maintain web applications. Passionate about learning new technologies and
+              improving coding skills.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://cdn-icons-png.flaticon.com/256/174/174854.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://img-resize-cdn.joshmartin.ch/768x0%2Cc3537b9f46b5f6055fbc8b4cd03b6b2cc63fc2eefd3d8cd9f0c9f99a5933e496/https://joshmartin.ch/app/uploads/2017/10/css3.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://education.oracle.com/file/general/p-80-java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/447/294/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages & Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Visual_Studio_Icon_2022.svg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Visual Studio</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://education.oracle.com/file/general/p-80-java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqWbXTD7-YZAyAlkEEt_9F6YmOsubT5WZpcJxzOkt8UnPsUOUE1luqF-f5WfrCdTUFApk&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C Language</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://avatars.githubusercontent.com/u/18133?s=280&v=4"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git/Github</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf2oL2YKatu2Kc0f8UQnOsVSv9Pv7w8yuRbA&s"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Canva</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://w7.pngwing.com/pngs/447/294/png-transparent-python-javascript-logo-clojure-python-logo-blue-angle-text-thumbnail.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./freepik-export-20240726060703Odx9.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Expense-Tracker</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vikram-ui2004/Expence-Tracker.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://charming-squirrel-9a6c29.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./freepik-export-20240726055255zDmg.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Landing-page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vikram-ui2004/Travel-Landing-Page.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://majestic-starship-6aa708.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./freepik-export-20240726055352bHtm.jpeg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Signature-App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Vikram-ui2004/Sign-Anyway.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jade-jelly-3feb0a.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/arrow.png?raw=true"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/email.png?raw=true"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nayakvikram038@gmail.com">nayakvikram038@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://github.com/Ade-mir/html-css-js-portfolio-tutorial-2/blob/main/assets/linkedin.png?raw=true"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/vikram-nayak-1804ba302?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bg84OVzoNTEaKNcLpZ8xgxw%3D%3D">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Vikram nayak. All Rights Reserved.</p>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
